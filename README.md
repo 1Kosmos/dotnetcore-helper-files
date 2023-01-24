@@ -12,7 +12,7 @@
 git clone https://github.com/1Kosmos/dotnetcore-helper-files.git
 ```
 
-- Navigate to the `dotnet-core-helper-files` folder and open the project solution in Visual Studio (double-click `BIDHelpers.sln`)
+- Navigate to the `dotnetcore-helper-files` folder and open the project solution in Visual Studio (double-click `BIDHelpers.sln`)
 - Build the solution:- **Select the project -> right-click -> Build**  
 
 After a successful build, `BIDHelpers.1.0.0.nupkg` will be generated in `BIDHelpers/bin/Debug`  
@@ -23,11 +23,11 @@ After a successful build, `BIDHelpers.1.0.0.nupkg` will be generated in `BIDHelp
 In your project directory, copy and paste `BIDHelpers.1.0.0.nupkg` file into your desired location. 
 
 - Add path for above nuget package into your project, Go to solution explorer and perform the following steps:  
-  - **Right click on Project -> Manage Nuget Packages -> Click on the Settings icon (beside os the Package SOurce dropdown)`**
-  - **New options popup will open, click on Add Package (Plus Icon in green) -> Add appropriate Name and Source (Path to the BIDHelpers.1.0.0.nupkg above into your project) -> After adding Name and Source, Click on OK button.`**
-  - **After adding this, select the newly added name under the Package Source dropdown, you will see the BIDHelper package.`**
+  - Right click on **Project -> Manage Nuget Packages -> Click on the Settings icon (beside os the Package Source dropdown)`**
+  - Options window will open up, click on **Add Package (Plus Icon in green)`** -> Add appropriate **Name and Source (Path to the BIDHelpers.1.0.0.nupkg above into your project)`** -> After adding Name and Source, Click on **OK`** button.
+  - After adding this, select the newly added **package name under the Package Source dropdown`**, you will see the **BIDHelper`** package.
  
-Now you should be able to see BIDHelper nuget package ready to install into your project.
+Now you should be able to see **BIDHelper nuget package`** ready to install into your project.
 
 ```
 using BIDHelpers.BIDECDSA;
