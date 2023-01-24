@@ -29,6 +29,10 @@ In your project directory, copy and paste `BIDHelpers.1.0.0.nupkg` file into you
  
 Now you should be able to see **BIDHelper nuget package** ready to install into your project.
 
+
+## How to use dotnetcore BIDHelpers package into your project
+
+Add namespace on the top of the your page:
 ```
 using BIDHelpers.BIDECDSA;
 
