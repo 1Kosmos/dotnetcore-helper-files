@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- **Visual Studio **: 2017 or higher
+- ** Visual Studio **: 2017 or higher
 - **.NET Core **: .NET Core 3.1 or higher
 
 
@@ -13,8 +13,7 @@ git clone https://github.com/1Kosmos/dotnetcore-helper-files.git
 ```
 
 - Navigate to the `dotnet-core-helper-files` folder and open the project solution in Visual Studio (double-click `BIDHelpers.sln`)
-- Build the solution:
-  - **Select the project -> right-click -> Build**  
+- Build the solution:- **Select the project -> right-click -> Build**  
 
 After a successful build, `BIDHelpers.1.0.0.nupkg` will be generated in `BIDHelpers/bin/Debug`  
 
