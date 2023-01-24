@@ -1,9 +1,9 @@
-# dotnet-helper-files
+# dotnetcore-helper-files
 
 ## Prerequisites
 
 - ** Visual Studio **: 2017 or higher
-- **.NET Core **: .NET Core 3.1 or higher
+- **.NET Core **:  3.1 or higher
 
 
 ## Clone the **latest version** of the [.NET CORE SDK](https://github.com/1Kosmos/dotnetcore-helper-files) repo from our [github](https://github.com/1Kosmos) and copy the files to your project directory. 
