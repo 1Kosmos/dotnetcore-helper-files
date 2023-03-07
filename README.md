@@ -6,7 +6,7 @@
 - **.NET Core **:  3.1 or higher
 
 
-## Clone the **latest version** of the [.NET CORE SDK](https://github.com/1Kosmos/dotnetcore-helper-files) repo from our [github](https://github.com/1Kosmos) and performs the below steps. 
+## Clone the latest version of the [.NET CORE SDK](https://github.com/1Kosmos/dotnetcore-helper-files) repo from our [github](https://github.com/1Kosmos) and performs the below steps. 
 
 	a) Clone the main repository git clone https://github.com/1Kosmos/dotnetcore-helper-files.git. Clone of main repository will not pull the submodules. You need to execute step 'b' and 'c' as well.
 
