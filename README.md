@@ -10,19 +10,23 @@
 
 
 
-a) Clone the main repository git clone https://github.com/1Kosmos/dotnetcore-helper-files.git. Clone of main repository will not pull the submodules. You need to execute step 'b' and 'c' as well.
+	a) Clone the main repository git clone https://github.com/1Kosmos/dotnetcore-helper-files.git. Clone of main repository will not pull the submodules. You need to execute step 'b' and 'c' as well.
 
 	```shell 
 	git clone https://github.com/1Kosmos/dotnetcore-helper-files.git
 	```
 
-b) To initialize a Git submodule, use the “git submodule update” command with the “–init” and the “–recursive” options. This command will register the git submodule directory path for 'shared' folder.
+	b) To initialize a Git submodule, use the “git submodule update” command with the “–init” and the “–recursive” options. This command will register the git submodule directory path for 'shared' folder.
 
-    git submodule update --init --recursive
+    ```shell 
+	git submodule update --init --recursive
+	```
 
-c) In order to update an existing Git submodule, you need to execute the “git submodule update” with the “–remote” and the “–merge” option.
+	c) In order to update an existing Git submodule, you need to execute the “git submodule update” with the “–remote” and the “–merge” option.
 
-    git submodule update --remote --merge
+    ```shell 
+	git submodule update --remote --merge
+	```
 		
 - Navigate to the `dotnetcore-helper-files` folder and open the project solution in Visual Studio (double-click `BIDHelpers.sln`)
 - Build the solution:- **Select the project -> right-click -> Build**  
