@@ -10,9 +10,8 @@
 
 	a) Clone the main repository git clone https://github.com/1Kosmos/dotnetcore-helper-files.git. Clone of main repository will not pull the submodules. You need to execute step 'b' and 'c' as well.
 
-	```shell 
 	git clone https://github.com/1Kosmos/dotnetcore-helper-files.git
-	```
+	
 
 	b) To initialize a Git submodule, use the “git submodule update” command with the “–init” and the “–recursive” options. This command will register the git submodule directory path for 'shared' folder.
 	
