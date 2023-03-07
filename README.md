@@ -10,7 +10,7 @@
 
 
 
-a) Clone the main repository git clone https://github.com/1Kosmos/dotnetcore-helper-files.git. Clone of main repository will not pull the submodules. You need to execute step 'b' as well.
+a) Clone the main repository git clone https://github.com/1Kosmos/dotnetcore-helper-files.git. Clone of main repository will not pull the submodules. You need to execute step 'b' and 'c' as well.
 
 	```shell 
 	git clone https://github.com/1Kosmos/dotnetcore-helper-files.git
