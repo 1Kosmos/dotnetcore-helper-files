@@ -57,7 +57,8 @@ using BIDHelpers.BIDECDSA;
 Copy and past below line:
 
 ```
- var keyPair = BIDECDSA.GenerateKeyPair();
+ var partyA = BIDECDSA.GenerateKeyPair(); // (say server)
+ var partyB = BIDECDSA.GenerateKeyPair(); // (say client)
 
 ```
 
@@ -66,7 +67,11 @@ Copy and past below line:
 Copy and past below line:
 
 ```
- var sharedKey = BIDECDSA.CreateSharedKey(keyPair.prKey, keyPair.pKey);
+ var sharedKey = BIDECDSA.CreateSharedKey(<server private key>, <client public key>);
+
+ // Example:
+ var sharedKeyA = BIDECDSA.CreateSharedKey(partyA.prKey, partyB.pKey);
+ var sharedKeyB = BIDECDSA.CreateSharedKey(partyB.prKey, partyA.pKey);
 
 ```
 
@@ -75,7 +80,7 @@ Copy and past below line:
 Copy and past below line:
 
 ```
- var encryptedBase64String = BIDECDSA.Encrypt("any string", sharedKey);
+ var encryptedBase64String = BIDECDSA.Encrypt("any string", sharedKeyA);
 
 ```
 
@@ -84,7 +89,7 @@ Copy and past below line:
 Copy and past below line:
 
 ```
-var decryptedPlainString = BIDECDSA.Decrypt(encryptedBase64String, sharedKey);
+var decryptedPlainString = BIDECDSA.Decrypt(encryptedBase64String, sharedKeyB);
 
 ```
 
